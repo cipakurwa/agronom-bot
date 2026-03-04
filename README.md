@@ -12,5 +12,6 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/your-username/agronom-bot.git
+git clone https://github.com/cipakurwa/agronom-bot.git
+
 cd agronom-bot
