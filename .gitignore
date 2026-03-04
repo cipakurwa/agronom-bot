@@ -1,0 +1,19 @@
+# Виртуальное окружение
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Файлы с секретами
+.env
+
+# Модель (скачивается отдельно)
+Pretrained_model.h5
+
+# Логи
+*.log
+*.pid
+
+# IDE
+.idea/
+.vscode/
