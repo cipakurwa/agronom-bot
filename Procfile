@@ -1,1 +1,0 @@
-worker: python bot.pypip install -r requirements.txt
