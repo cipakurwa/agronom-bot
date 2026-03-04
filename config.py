@@ -3,13 +3,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ========== ТОКЕНЫ ==========
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8578494775:AAFYUwE7lC_8OiqmtUpkR_ftc2VkdL-0PcY")
-# ============================
+# Токен бота от @BotFather
+BOT_TOKEN = os.getenv("BOT_TOKEN", "Ваш токен бота")
 
-# Путь к локальному файлу модели
-MODEL_PATH = "Pretrained_model.h5"
+# Токен Hugging Face (https://huggingface.co/settings/tokens)
+HF_TOKEN = os.getenv("HF_TOKEN", "Ваш токен Hugging Face")
+
+# Имя модели на Hugging Face
+MODEL_NAME = "linkanjarad/mobilenet_v2_1.0_224-plant-disease-identification"
 
 print("✅ Конфигурация загружена")
-print(f"📊 Модель: {MODEL_PATH}")
-print(f"🌱 Тип: InceptionResNetV2 (38 классов)")
+print(f"📊 Модель: {MODEL_NAME}")
